@@ -99,8 +99,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.camera.postproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.camera.postproc@1.0.so \
     vendor/xiaomi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.dfps@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.dfps@1.0.so \
     vendor/xiaomi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.gpu@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.gpu@1.0.so \
-    vendor/xiaomi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkpower@1.0.so \
-    vendor/xiaomi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkpower@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkpower@1.1.so \
     vendor/xiaomi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.mtkradioex@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.mtkradioex@1.0.so \
     vendor/xiaomi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.nwk_opt@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.nwk_opt@1.0.so \
     vendor/xiaomi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.touchll@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.touchll@1.0.so \
@@ -854,7 +852,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/vendor/lib/hw/lights.mt6785.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.mt6785.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/hw/memtrack.mt6785.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.mt6785.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/hw/nfc_nci.nqx.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nfc_nci.nqx.default.so \
-    vendor/xiaomi/begonia/proprietary/vendor/lib/hw/power.mt6785.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.mt6785.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/hw/sensors.touch.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.touch.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/hw/sound_trigger.primary.mt6785.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.mt6785.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/hw/thermal.mt6785.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.mt6785.so \
@@ -866,7 +863,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mms@1.5-impl.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so \
-    vendor/xiaomi/begonia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mtkpower@1.1-impl.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq@2.6-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.pq@2.6-impl.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
@@ -1274,10 +1270,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/vendor/lib/libnxprecord.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnxprecord.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/libnxpspeech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnxpspeech.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
-    vendor/xiaomi/begonia/proprietary/vendor/lib/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfctl_vendor.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpixelflinger.so \
-    vendor/xiaomi/begonia/proprietary/vendor/lib/libpowerhal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhal.so \
-    vendor/xiaomi/begonia/proprietary/vendor/lib/libpowerhalwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhalwrap_vendor.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_cust_base.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_prot.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/librgbwlightsensor.so \

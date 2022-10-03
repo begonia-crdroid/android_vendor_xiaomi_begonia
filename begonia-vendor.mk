@@ -887,6 +887,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/vendor/lib/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaalservice.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/libakm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libakm.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib/libalsautils-v30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils-v30.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/libapusys.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapusys.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/libarmnn_ndk.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarmnn_ndk.mtk.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_param_parser-vnd.so \
@@ -1389,6 +1390,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/vendor/lib64/libalLDC.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalLDC.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib64/libalRnBRT_GL_GBWRAPPER.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalRnBRT_GL_GBWRAPPER.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib64/libalhLDC.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalhLDC.so \
+    vendor/xiaomi/begonia/proprietary/vendor/lib64/libalsautils-v30.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalsautils-v30.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib64/libapu-apuwareapusys.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapu-apuwareapusys.mtk.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib64/libapu-apuwareutils.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapu-apuwareutils.mtk.so \
     vendor/xiaomi/begonia/proprietary/vendor/lib64/libapu-apuwarexrp.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapu-apuwarexrp.mtk.so \
